@@ -2,7 +2,7 @@
 applications:
   - name: integration-winddata-timeseries-service
     buildpack: java_buildpack
-    path: target/winddata-timeseries-service-1.1.10.jar
+    path: target/winddata-timeseries-service-1.1.14.jar
     memory: 1G
     services:
         - ${timeSeriesService}
